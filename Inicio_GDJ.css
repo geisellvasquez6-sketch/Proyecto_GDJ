@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    font-family: Arial;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #111827;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.banner{
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.promociones{
+    padding: 40px;
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.producto{
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.producto img{
+    width: 100%;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.mision,
+.vision{
+    padding: 40px;
+    text-align: center;
+}
+
+footer{
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a{
+    color: white;
+    margin: 10px;
+}
+
+img.marquee_logos{
+    max-width: 120px;
+    max-height: 50px;
+}
+
+li{
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+
+@media(max-width:768px){
+
+    .contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
