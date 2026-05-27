@@ -29,21 +29,21 @@ section{
     text-align: center;
 }
 
-.contenedor{
+.contenedor_GDJ{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
 
-.producto{
+.producto_GDJ{
     width: 250px;
     border: 1px solid #ccc;
     padding: 15px;
     text-align: center;
 }
 
-.producto img{
+.producto_GDJ img{
     width: 100%;
 }
 
@@ -59,7 +59,7 @@ footer a{
     margin: 10px;
 }
 
-img.marquee_logos{
+img.marquee_logos_GDJ{
     max-width: 120px;
     max-height: 50px;
 }
@@ -80,7 +80,7 @@ ul{
 
 @media(max-width:768px){
 
-    .contenedor{
+    .contenedor_GDJ{
         flex-direction: column;
         align-items: center;
     }

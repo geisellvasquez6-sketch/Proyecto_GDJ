@@ -26,12 +26,12 @@ section{
     padding: 40px;
 }
 
-.servicio{
+.servicio_GDJ{
     text-align: center;
     padding: 20px;
 }
 
-.servicio img{
+.servicio_GDJ img{
     width: 100%;
     max-width: 300px;
     height: auto;
@@ -57,7 +57,7 @@ footer a{
 
 @media(max-width:768px){
 
-    .contenedor{
+    .contenedor_GDJ{
         flex-direction: column;
         align-items: center;
     }
